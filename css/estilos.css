@@ -1,2 +1,24 @@
 
-#logo[width:150 px; height:150 px;]
+.caja img {height: 150px;
+    width: 300px;}
+
+#logo {width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.contenedor {background-color: rgba(77, 202, 224, 0.582);}
+
+.caja {background-color: rgba(160, 88, 228, 0.432);
+border-radius: 16px;
+padding: 8px;
+display-flex: ;
+margin: 10px;
+width: 300px;
+height: 500px;
+}
+
+.flex-center {
+    display:flex; 
+    align-items: center; 
+}
