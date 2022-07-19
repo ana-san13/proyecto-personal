@@ -29,8 +29,7 @@ fetch(uri + "datos.json").then(function(response) {
     if(i == 0){
         nuevo_boton.click();
     }
-    {
-
-    }).catch(function(error) {
+  }
+}).catch(function(error) {
     console.log(error)
 })
