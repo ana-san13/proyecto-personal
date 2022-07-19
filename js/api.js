@@ -11,7 +11,7 @@ const el_informacion = document.querySElectos("div#contenido h3")
 fetch(uri + "datos.json").then(function(response) {
    return response.json();
 }).then(function(datos) {
-    for(let i = 0; i < datos.length; i+=1); {
+    for(let i = 0; i < datos.length; i+=1) {
         let nuevo_boton = document.createElement("button");
         nuevo_boton.innerHTML += datos[i].nombre;
         el_lista.appendChild(nuevo_boton);
