@@ -2,6 +2,7 @@
 const uri="https://raw.githubusercontent.com/ana-san13/Ana-API/master/";
 let genero_seleccionado = null;
 
+//encontrar elementos de html
 
 const el_lista = document.getElementById("generos-musicales");
 const el_imagen = document.getElementById("imagen-del-genero")
