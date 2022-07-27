@@ -11,17 +11,15 @@ body {
     border-radius: 50%;
     margin-right: 30px}
     
-    
-   header {display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .contenedor {background-color: rgba(77, 202, 224, 0.336);
     border-radius: 20px;
     padding: 20px;
     margin-top: 30px;
     width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
 }
 
 
