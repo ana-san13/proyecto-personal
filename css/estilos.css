@@ -1,6 +1,6 @@
 
 body {
-    background-image:url('../imagenes/fondo.jpeg');
+    background-color: black;
     background-size: cover;
    
 }
@@ -12,14 +12,17 @@ body {
     margin-right: 30px}
     
 
-.contenedor {background-color: rgba(77, 202, 224, 0.336);
+.contenedor {background-color: rgba(66, 33, 184, 0.664);
     border-radius: 20px;
     padding: 20px;
     margin-top: 30px;
-    width: 100%;
     display: flex;
-    justify-content:flex-start;
-    align-items: center;
+    flex-direction: column;
+   
+}
+
+#imagen-contenido{
+    display: flex;
 }
 
 
@@ -28,7 +31,7 @@ body {
     color: black;
     display: block;
     padding: 5px;
-    font-size: 30px;
+    font-size: 20px;
     width: 100%;
     margin-top: 15px;
     margin-bottom: 10px;
@@ -37,9 +40,13 @@ body {
     border-bottom-style: solid;
 }
 
+#generos-musicales{column-count: 2;
+column-gap: 40%;}
+
+
 #generos-musicales button.seleccionado {
     background-color: rgba(186, 53, 219, 0.603);
-    font-size: 40px;
+    font-size: 25px;
 }
 
 #generos-musicales button:hover {
@@ -47,10 +54,24 @@ body {
     transition: 0.002s;
 }
 
-#contenido {text-align: center;
+
+
+#contenido {
+    background-color: rgba(178, 121, 231, 0.555);
+    text-align: left;
+    width: 60%;
+    height: 400px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 10px;
+
 }
 
-#imagen-del-genero{width: 100%;}
+#imagen{width: 50%;
+height: 400px;
+border-radius: 20px;}
+
+
 
 
 
